@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <span>Count: {multipliedValue}</span>
+
         <span>Multiplier: x{multiplier}</span>
         <span>
           Add:
