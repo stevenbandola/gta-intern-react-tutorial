@@ -26,7 +26,7 @@ function App() {
           <button onClick={() => setCount(count - 1)}>-</button>
         </span>
         {/* Khalid code goes here */}
-        {/* // This is a comment  */}
+        {/* I like toes ?? */}
         {/* Create a component that returns a button that when pressed, subtracts one to multiplier  */}
         {/* Jireh code goes here */}
         {/*  Create a component that returns a button that when pressed, adds one to multiplier  */}
