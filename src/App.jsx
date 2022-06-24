@@ -28,7 +28,7 @@ function App() {
         {/* Khalid code goes here */}
         {/* Create a component that returns a button that when pressed, subtracts one to multiplier  */}
         {/* Jireh code goes here */}
-        {/* hi */}
+        {/* goodbye */}
         {/*  Create a component that returns a button that when pressed, adds one to multiplier  */}
       </header>
     </div>
