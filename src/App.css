@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: "flex";
+  flex-direction: column;
 }
 
 .App-logo {
@@ -39,4 +41,5 @@
 
 button {
   font-size: calc(10px + 2vmin);
+  margin-left: 10px;
 }
