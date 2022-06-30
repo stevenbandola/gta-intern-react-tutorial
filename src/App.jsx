@@ -12,6 +12,10 @@ function App() {
     console.log(count, multiplier, multipliedValue);
   }, [count]);
 
+  function addToMultiplier() {
+    setMultiplier(multiplier + 1);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -28,8 +32,10 @@ function App() {
         {/* Khalid code goes here */}
         {/* Create a component that returns a button that when pressed, subtracts one to multiplier  */}
         {/* Jireh code goes here */}
-        {/* goodbye */}
-        {/*  Create a component that returns a button that when pressed, adds one to multiplier  */}
+        <span>
+          Add one to Multiplier:
+          <button onClick={addToMultiplier}>(x) + 1</button>
+        </span>
       </header>
     </div>
   );
